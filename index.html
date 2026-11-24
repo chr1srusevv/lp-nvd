@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrainTrade | NVIDIA disparou 35% em 1 dia — agende sua sessão 1&nbsp;a&nbsp;1</title>
+  <meta name="description" content="NVIDIA disparou 35% em um único pregão. Agende uma sessão 1&nbsp;a&nbsp;1 com um instrutor da BrainTrade e aprenda a entender o que há por trás desses números.">
+  <meta name="theme-color" content="#050a04">
+    <link rel="alternate" hreflang="pt-BR" href="index.html">
+  <link rel="alternate" hreflang="es-419" href="es.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <link rel="alternate" hreflang="x-default" href="index.html">
+  <link rel="stylesheet" href="style.css">
+  <!-- adds the "js" class only when motion is wanted; without it the page stays fully visible/static -->
+  <script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches&&"IntersectionObserver" in window)document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+  <!-- SVG sprite: icons used across the page (stroke = currentColor) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-circle-check" viewBox="0 0 24 24"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="logo" href="#" aria-label="BrainTrade">
+        <img src="assets/logo.svg" alt="BrainTrade" width="180" height="37">
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+        <section class="hero hero--art">
+
+      <!-- decorative background: key art + glow -->
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__art"></div>
+        <div class="glow glow--hero-a"></div>
+        <div class="glow glow--hero-b"></div>
+        <div class="hero__fade"></div>
+      </div>
+
+      <div class="container hero__inner">
+
+        <div class="hero__copy">
+          <h1 class="h1" aria-label="NVIDIA disparou 35% em 1 dia">
+            <span class="h1__pre" aria-hidden="true">NVIDIA disparou</span>
+            <span class="h1__num" aria-hidden="true"><span class="h1__num-real">35%</span></span>
+            <span class="h1__small" aria-hidden="true">em 1 dia</span>
+          </h1>
+          <p class="lead">O que aconteceu? Um instrutor da BrainTrade explica, 1&nbsp;a&nbsp;1, o que há por trás desse número.</p>
+
+          <ul class="checks">
+            <li><svg class="icon" focusable="false" aria-hidden="true"><use href="#i-check"/></svg>Aulas ao vivo com instrutores de verdade</li>
+            <li><svg class="icon" focusable="false" aria-hidden="true"><use href="#i-check"/></svg>Acompanhamento em português, de segunda a sexta</li>
+            <li><svg class="icon" focusable="false" aria-hidden="true"><use href="#i-check"/></svg>Seus dados são tratados de forma confidencial</li>
+          </ul>
+        </div>
+        <!-- DEV: visual only. Wire up action/method, validation and the country list. -->
+        <form class="card form form--light" id="lead-form" action="#" method="post">
+          <h2 class="form__title">Agende sua sessão 1&nbsp;a&nbsp;1<br>com um instrutor</h2>
+
+          <div class="field">
+            <label for="f-name">Nome completo</label>
+            <input class="input" id="f-name" name="name" type="text" placeholder="Seu nome" autocomplete="name">
+          </div>
+
+          <div class="field">
+            <label for="f-email">E-mail</label>
+            <input class="input" id="f-email" name="email" type="email" placeholder="voce@email.com" autocomplete="email">
+          </div>
+
+          <div class="field">
+            <label for="f-phone">Telefone</label>
+            <div class="phone">
+              <select class="input input--select" name="country" aria-label="Código do país">
+                <option value="US +1">US +1</option>
+              </select>
+              <input class="input" id="f-phone" name="phone" type="tel" placeholder="Número de telefone" autocomplete="tel-national">
+            </div>
+          </div>
+
+          <label class="consent">
+            <input class="switch" type="checkbox" name="consent">
+            <span class="consent__text">Concordo com os <a href="#">Termos e Condições</a> e com a <a href="#">Política de Privacidade</a>.</span>
+          </label>
+
+          <button class="btn btn--block" type="submit">Quero minha sessão 1&nbsp;a&nbsp;1</button>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story">
+      <div class="container story__grid">
+
+        <div class="story__copy">
+          <h2 class="h2 h2--story">Da queda de quase 50%<br class="br-d"> a uma alta de <span class="accent">31,5%</span><br class="br-d"> em um só dia</h2>
+
+          <ol class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__date">Desde outubro</span>
+              <h3 class="timeline__title">Quase metade do valor perdido</h3>
+              <p class="timeline__text">Renúncia do CEO Jensen Huang, incerteza no setor de inteligência artificial e preocupações regulatórias.</p>
+            </li>
+            <li class="timeline__item timeline__item--up">
+              <span class="timeline__date">23 de novembro</span>
+              <h3 class="timeline__title">Huang volta e as ações sobem 31,5% em um único pregão</h3>
+              <p class="timeline__text">Mais de US$950 bilhões somados ao valor de mercado.</p>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__date">Ainda assim</span>
+              <h3 class="timeline__title">A volatilidade continua</h3>
+              <p class="timeline__text">Os investidores seguem atentos aos próximos acontecimentos.</p>
+            </li>
+          </ol>
+        </div>
+
+        <figure class="terminal">
+          <!-- Real chart screenshot: NVDA, 5-minute candles, pre-market (assets/img/nvda-move.png). -->
+          <img class="terminal__img" src="assets/img/nvda-move.png" width="492" height="623" loading="lazy"
+               alt="Gráfico de 5 minutos da NVIDIA (NASDAQ) no pré-mercado: uma única vela verde sobe cerca de 35% acima do movimento anterior.">
+          <div class="terminal__stats">
+            <div class="stat">
+              <p class="stat__value">~50%</p>
+              <p class="stat__label">do valor perdido<br>desde outubro</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value stat__value--accent">US$950 bi+</p>
+              <p class="stat__label">somados ao valor<br>de mercado</p>
+            </div>
+          </div>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ============ BENEFITS ============ -->
+    <section class="benefits">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2 h2--center">Por trás de cada porcentagem há uma<br class="br-d"> história que você pode aprender a ler</h2>
+          <p class="section-head__sub">É assim que a BrainTrade te ensina quando o mercado se move e você quer entender o porquê.</p>
+        </div>
+
+        <div class="benefits__layout">
+          <figure class="benefits__feature" aria-hidden="true">
+            <div class="benefits__pop"><img src="assets/img/gpu-card.webp" alt="" width="1003" height="1002" loading="lazy"></div>
+          </figure>
+
+          <div class="benefits__grid">
+            <article class="card benefit">
+              <div class="benefit__viz" aria-hidden="true">
+                <svg viewBox="0 0 320 96" focusable="false">
+                  <path class="v-grid" d="M0 88H320M0 56H320M0 24H320"/>
+                  <rect class="v-dim" x="24" y="64" width="22" height="24" rx="3"/><rect class="v-dim" x="64" y="56" width="22" height="32" rx="3"/><rect class="v-dim" x="104" y="60" width="22" height="28" rx="3"/>
+                  <rect class="v-mid" x="144" y="46" width="22" height="42" rx="3"/><rect class="v-mid" x="184" y="38" width="22" height="50" rx="3"/><rect class="v-hi" x="224" y="26" width="22" height="62" rx="3"/>
+                  <path class="v-line" d="M35 50L75 42L115 46L155 32L195 24L235 12L290 8"/><circle class="v-dot" cx="290" cy="8" r="4"/>
+                </svg>
+              </div>
+              <div class="benefit__body">
+                <h3 class="benefit__title">Aprenda a ler um<br>balanço de resultados</h3>
+                <p class="benefit__text">Receita, margens e projeções: mostramos quais dados os analistas observam quando uma empresa divulga seus números trimestrais.</p>
+              </div>
+            </article>
+
+            <article class="card benefit">
+              <div class="benefit__viz" aria-hidden="true">
+                <svg viewBox="0 0 320 96" focusable="false">
+                  <path class="v-grid" d="M0 88H320M0 56H320M0 24H320"/>
+                  <g class="v-dim"><rect x="20" y="52" width="9" height="16" rx="2"/><rect x="46" y="48" width="9" height="12" rx="2"/><rect x="72" y="54" width="9" height="14" rx="2"/><rect x="98" y="50" width="9" height="10" rx="2"/><rect x="124" y="56" width="9" height="14" rx="2"/><rect x="150" y="52" width="9" height="12" rx="2"/><rect x="176" y="58" width="9" height="12" rx="2"/></g>
+                  <rect class="v-hi" x="206" y="14" width="16" height="58" rx="3"/><path class="v-line" d="M214 6V80"/>
+                  <g class="v-dim"><rect x="244" y="22" width="9" height="14" rx="2"/><rect x="270" y="20" width="9" height="12" rx="2"/><rect x="296" y="24" width="9" height="12" rx="2"/></g>
+                  <circle class="v-ring" cx="214" cy="43" r="36"/>
+                </svg>
+              </div>
+              <div class="benefit__body">
+                <h3 class="benefit__title">Entenda por que<br>um preço se move</h3>
+                <p class="benefit__text">Uma alta de 35% ou uma queda de 50% têm contexto. Aprenda a localizar notícias, volume e níveis no gráfico antes de tirar conclusões.</p>
+              </div>
+            </article>
+
+            <article class="card benefit">
+              <div class="benefit__viz" aria-hidden="true">
+                <svg viewBox="0 0 320 96" focusable="false">
+                  <path class="v-zone" d="M0 66H320V96H0Z"/>
+                  <path class="v-dash" d="M0 66H320"/>
+                  <path class="v-line" d="M10 34L50 28L90 42L130 32L170 58L205 64L245 46L285 30L312 24"/>
+                  <circle class="v-ring2" cx="205" cy="64" r="7"/><circle class="v-dot" cx="312" cy="24" r="4"/>
+                </svg>
+              </div>
+              <div class="benefit__body">
+                <h3 class="benefit__title">Gerencie o risco<br>antes de tudo</h3>
+                <p class="benefit__text">Tamanho da posição, perdas máximas e planejamento: a parte menos chamativa do trading e à qual dedicamos mais tempo.</p>
+              </div>
+            </article>
+
+            <article class="card benefit">
+              <div class="benefit__viz" aria-hidden="true">
+                <svg viewBox="0 0 320 96" focusable="false">
+                  <path class="v-grid" d="M0 88H320"/>
+                  <rect class="v-dim" x="22" y="68" width="36" height="20" rx="4"/><rect class="v-dim" x="68" y="56" width="36" height="32" rx="4"/><rect class="v-mid" x="114" y="44" width="36" height="44" rx="4"/>
+                  <rect class="v-mid" x="160" y="32" width="36" height="56" rx="4"/><rect class="v-mid" x="206" y="20" width="36" height="68" rx="4"/><rect class="v-hi" x="252" y="8" width="36" height="80" rx="4"/>
+                </svg>
+              </div>
+              <div class="benefit__body">
+                <h3 class="benefit__title">Avance no seu ritmo,<br>com seu instrutor</h3>
+                <p class="benefit__text">Sessões 1&nbsp;a&nbsp;1, material sob medida e aulas ao vivo para você avançar conforme seus próprios objetivos e sua própria agenda.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STEPS ============ -->
+    <section class="steps">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2 h2--center">Comece em três passos</h2>
+          <p class="section-head__sub">Simples e direto.</p>
+        </div>
+
+        <ol class="steps__list">
+          <li class="step">
+            <span class="step__badge">1</span>
+            <h3 class="step__title">Agende</h3>
+            <p class="step__text">Preencha o formulário.</p>
+          </li>
+          <li class="step">
+            <span class="step__badge">2</span>
+            <h3 class="step__title">Converse</h3>
+            <p class="step__text">Fale com um instrutor, em português.</p>
+          </li>
+          <li class="step step--goal">
+            <span class="step__badge">3</span>
+            <h3 class="step__title">Estude</h3>
+            <p class="step__text">Sessões 1&nbsp;a&nbsp;1, no seu ritmo.</p>
+          </li>
+        </ol>
+
+        <div class="steps__cta">
+          <a class="btn btn--lg" href="#lead-form">Quero minha sessão 1&nbsp;a&nbsp;1</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <!-- DEV: right-hand slot is the instructor photo: assets/img/instructor.webp (transparent cut-out, portrait, bottom-aligned). -->
+    <section class="about">
+      <div class="container">
+        <div class="about__panel">
+          <div class="about__content">
+            <p class="about__eyebrow">Treinamento personalizado</p>
+            <h2 class="h2 h2--about">Seus objetivos<br> são pessoais.<br> <span class="accent">Seu treinamento<br> também deve ser.</span></h2>
+            <p class="about__text">Somos a BrainTrade, uma academia de trading online construída em torno do treinamento personalizado 1&nbsp;a&nbsp;1. Reunimos treinadores dedicados, educação prática, sessões ao vivo e ferramentas com tecnologia de IA para tornar o aprendizado sobre os mercados financeiros uma experiência mais pessoal.</p>
+          </div>
+          <div class="about__media">
+            <span class="about__ghost" aria-hidden="true">1:1</span>
+            <img class="about__photo" src="assets/img/instructor.webp" alt="Instrutor da BrainTrade com a mão estendida" width="784" height="1100" loading="lazy">
+            <div class="about__float" aria-hidden="true">
+              <span class="about__float-label">Sessão 1&nbsp;a&nbsp;1</span>
+              <span class="about__float-text">Ao vivo, com seu instrutor</span>
+              <svg viewBox="0 0 120 34" focusable="false"><path d="M2 28L18 24L32 27L48 18L62 21L78 12L94 14L118 4"/></svg>
+            </div>
+          </div>
+          <div class="about__note">
+            <span class="icon-box icon-box--sm"><svg class="icon" focusable="false" aria-hidden="true"><use href="#i-cap"/></svg></span>
+            <p>A BrainTrade é operada pela BT Nexus Limited, que oferece conteúdos e recursos educacionais para ajudar as pessoas a desenvolver seus conhecimentos e habilidades de trading.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta__panel">
+          <span class="cta__ghost" aria-hidden="true">35%</span>
+          <div class="cta__content">
+            <h2 class="h2 h2--cta">O mercado<br class="br-m"> variou <span class="accent">35%</span>.<br> Aprenda a ler o<br class="br-m"> que aconteceu.</h2>
+            <p class="cta__text">Agende uma sessão 1&nbsp;a&nbsp;1 com um instrutor da BrainTrade e comece a estudar os mercados com método, sem promessas nem atalhos.</p>
+            <!-- DEV: points at the form; replace with the real action if needed -->
+            <a class="btn btn--lg btn--cta" href="#lead-form">Agendar minha sessão 1&nbsp;a&nbsp;1</a>
+          </div>
+          <ul class="cta__points">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Aulas ao vivo</li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Em português, de segunda a sexta</li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>Dados tratados de forma confidencial</li>
+            </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="site-footer__links" aria-label="Rodapé">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos e Condições</a>
+        <a href="#">Fale conosco</a>
+      </nav>
+      <p class="site-footer__legal">A Braintrade (www.thebraintrade.com) é operada pela BT Nexus Limited (a “Empresa”). Todas as informações são fornecidas apenas para fins educacionais e não constituem aconselhamento financeiro ou de investimento. Todo o conteúdo e dados apresentados neste site são fornecidos estritamente para fins educacionais e de marketing geral. Nada do conteúdo deste site deve ser interpretado como uma oferta ou convite para comprar, vender ou negociar qualquer instrumento financeiro. Negociar e investir envolve riscos significativos e pode levar a uma perda substancial ou total de capital. Essas atividades devem ser realizadas apenas com fundos que você pode se dar ao luxo de perder. Recomendamos fortemente buscar aconselhamento financeiro independente e garantir que você compreenda totalmente os riscos envolvidos antes de processar com qualquer serviço. A Empresa entrega material educacional e pode incluir links ou referências de fontes, serviços ou dados externos de terceiros. Esses recursos são compartilhados exclusivamente para uso educacional, e a Empresa não endossa, controla ou assume responsabilidade por qualquer conteúdo ou serviço de terceiros. Não oferecemos garantias quanto à precisão, completude ou confiabilidade de qualquer informação fornecida em nossa plataforma. Não nos responsabilizamos por qualquer perda ou dano decorrente de seu uso ou interpretação. Para mais detalhes, consulte nossos <a href="#">Termos e Condições</a>. Braintrade © 2026. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- mobile only: stays hidden until the visitor scrolls past the form (see script.js) -->
+  <div class="sticky-cta" aria-hidden="true"><a class="btn btn--block" href="#lead-form" tabindex="-1">Quero minha sessão 1&nbsp;a&nbsp;1</a></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
